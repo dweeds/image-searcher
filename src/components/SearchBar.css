@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+.search-bar {
+    margin: 2% 10% 2% 10%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.search-bar form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal;
+}
+
+input {
+    padding: 10px;
+    width: 60%;
+    margin-left: 19%;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    transition: 1s box-shadow;
+}
+input:hover {
+    box-shadow: 0 5px 35px 0px rgba(83, 83, 83, 0.401);
+}
+
+button {
+    margin-top: 10px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 42%;
+    border: 0px;
+}
