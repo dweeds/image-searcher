@@ -9,6 +9,7 @@ It will come with updates in the future as i solidfy my use of react, feel free 
 ## Installed Scripts
 
 ### `npm install axios`
+You can read up on [Axios Documentation](https://www.npmjs.com/package/axios).
 
 ## Available Scripts
 
