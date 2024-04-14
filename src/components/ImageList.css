@@ -5,4 +5,12 @@
 img {
     width: 100%;
     margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .image-list {
+        columns: 2 150px;
+        column-gap: 10px;
+    }
 }

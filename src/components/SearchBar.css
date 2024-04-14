@@ -21,6 +21,7 @@ label {
 
 input {
     padding: 10px;
+    margin-top: 2%;
     width: 60%;
     margin-left: 19%;
     font-family: 'Montserrat', sans-serif;
@@ -42,3 +43,40 @@ button {
     margin-left: 42%;
     border: 0px;
 }
+
+@media only screen and (max-width: 600px) {
+
+    button {
+        margin-top: 10px;
+        width: 100px;
+        padding: 10px;
+        border-radius: 5px;
+        margin-left: 37%;
+        border: 0px;
+    }
+    label {
+        font-family: "Pixelify Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-size: 25px;
+        font-style: normal;
+    }
+    .search-bar {
+        margin: 5% ;
+        border-radius: 5px;
+        text-align: center;
+        padding: 10px;
+    }
+    input {
+        padding: 10px;
+        margin-top: 2%;
+        width: 70%;
+        margin-left: 12%;
+        font-family: 'Montserrat', sans-serif;
+        border-radius: 5px;
+        border: 2px solid lightblue;
+        font-size: 10px;
+        letter-spacing: 2px;
+        transition: 1s box-shadow;
+    }
+  }
